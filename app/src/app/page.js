@@ -172,7 +172,7 @@ export default function Home() {
               </DropdownMenu>
               <Switch
                 checked={item.dostepnosc}
-                onCheckedChange={(e) => zmienDost(item.zdjecie)}
+                onCheckedChange={(e) => zmienDost(e)}
               />
 
             </CardFooter>
